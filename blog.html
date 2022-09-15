@@ -14,6 +14,13 @@
     <p>A variable exists inside or outside a block. If a variable is declared outside all functions or curly braces ({}), it exists in the global scope. The global variables can be accessed by any line of code in the program, including inside blocks.</p>
     <h4>Block Scope:</h4>
     <P>The variables that are declared within the block scope are comparable to local ones. They are available within the block that they are defined.But block statements don't create a new scope. So the var keyword will not have an effect, because the variables are still in the same scope.</P>
-    
+    <h3>How Event Loop works in JavaScript?</h3>
+    <p>JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks.A JavaScript runtime uses a message queue, which is a list of messages to be processed. Each message has an associated function that gets called to handle the message.The processing of functions continues until the stack is once again empty. Then, the event loop will process the next message in the queue (if there is one).</p>
+    <h3>When we get Undefined in JavaScript?</h3>
+    <p>We get undefined in JavaScript when we:<br>
+        1.uninitialized variable.<br>
+        2.want to use non-existing object property.<br>
+        3.want to use non-existing array element.
+    </p>
 </body>
 </html>
