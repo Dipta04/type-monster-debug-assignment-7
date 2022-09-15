@@ -198,5 +198,5 @@ button {
     display: grid;
     grid-template-columns: repeat(3,300px);
   }
-  
+  .class{display: flex;}
 }
