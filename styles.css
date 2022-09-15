@@ -192,5 +192,11 @@ button {
     flex-direction: column;
   }
 }
-
-
+/* amar */
+@media only screen and (min-width: 800px) {
+  #histories {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+  }
+  
+}
